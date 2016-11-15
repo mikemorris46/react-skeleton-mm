@@ -1,0 +1,26 @@
+{
+  "name": "react-skeleton-mm",
+  "version": "1.0.0",
+  "description": "React Skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemorris46/react-skeleton-mm.git"
+  },
+  "author": "Mike Morris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikemorris46/react-skeleton-mm/issues"
+  },
+  "homepage": "https://github.com/mikemorris46/react-skeleton-mm#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
